@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Square from './Square';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            WE WILL BE PRACTICING REDUX IN THIS REACT APP
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Square 
+        text="Card 1"
+        backgroundColor="primary"
+        />
+        <Square 
+        text="Card 2"
+        backgroundColor="secondary"
+        />
+        <Square 
+        text="Card 3"
+        backgroundColor="primary"
+        />
+        <Square 
+        text="Card 4"
+        backgroundColor="primary"
+        />
       </div>
     );
   }
