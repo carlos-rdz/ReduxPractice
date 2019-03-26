@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            WE WILL BE PRACTICING REDUX IN THIS REACT APP
           </p>
           <a
             className="App-link"
